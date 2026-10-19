@@ -1,0 +1,355 @@
+{
+  "versao": "202610191915",
+  "gerado_em": "2026-10-19",
+  "fonte": "TreinoLarissa.xlsx",
+  "nome": "Larissa",
+  "app_titulo": "Treino Larissa",
+  "app_curto": "Lali \ud83d\udcaa",
+  "tema": {
+    "cor_fundo": "#0a0d14",
+    "cor_tema": "#0a0d14",
+    "cor_dia1": "#be185d",
+    "cor_dia2": "#c2410c"
+  },
+  "dias": [
+    {
+      "id": 1,
+      "titulo": "Costas \u00b7 Posterior \u00b7 B\u00edceps",
+      "grupos": "9 exerc\u00edcios \u2022 4 grupos musculares",
+      "secoes": [
+        {
+          "id": "d1_aquecimento",
+          "nome": "Aquecimento",
+          "icon": "\ud83d\udd25",
+          "icon_class": "icon-aquecimento",
+          "exercicios": [
+            {
+              "id": "d1_aquec_mob",
+              "nome": "Mobilidade tor\u00e1cica \u00b7 Posterior",
+              "series": "1",
+              "reps": null,
+              "tecnicas": [],
+              "pills_extra": ["Aquecimento", "Peso corporal"],
+              "obs": "Rota\u00e7\u00e3o tor\u00e1cica e ativa\u00e7\u00e3o da cadeia posterior antes do treino de costas e pernas",
+              "tem_peso": false,
+              "carga_default": null,
+              "unidade": null
+            }
+          ]
+        },
+        {
+          "id": "d1_posterior",
+          "nome": "Posterior",
+          "icon": "\ud83d\udfe2",
+          "icon_class": "icon-posterior",
+          "exercicios": [
+            {
+              "id": "d1_post_abdutora",
+              "nome": "Abdutora",
+              "series": "3",
+              "reps": "15",
+              "tecnicas": ["PICO2"],
+              "pills_extra": [],
+              "obs": "Pausa de 2s na contra\u00e7\u00e3o m\u00e1xima (pico); contrair gl\u00fateo no pico do movimento",
+              "tem_peso": true,
+              "carga_default": 40,
+              "unidade": "kg"
+            },
+            {
+              "id": "d1_post_cadeira",
+              "nome": "Cadeira flexora (Leg Curl)",
+              "series": "3",
+              "reps": null,
+              "tecnicas": ["FALHA"],
+              "pills_extra": [],
+              "obs": "Executar at\u00e9 a falha em cada s\u00e9rie; descida lenta e controlada; foco nos isquiotibiais",
+              "tem_peso": false,
+              "carga_default": null,
+              "unidade": null
+            },
+            {
+              "id": "d1_post_stiff",
+              "nome": "Stiff",
+              "series": "3",
+              "reps": "10",
+              "tecnicas": [],
+              "pills_extra": [],
+              "obs": "Coluna neutra; empurrar o quadril para tr\u00e1s; sentir o alongamento nos isquiotibiais; halteres colados \u00e0s pernas",
+              "tem_peso": true,
+              "carga_default": 5,
+              "unidade": "kg"
+            },
+            {
+              "id": "d1_post_sumo",
+              "nome": "Agachamento Sumo",
+              "series": "3",
+              "reps": "12",
+              "tecnicas": ["MTOR"],
+              "pills_extra": [],
+              "obs": "MTOR: pausa no ponto de m\u00e1ximo alongamento (posi\u00e7\u00e3o mais baixa); p\u00e9s bem abertos, joelhos para fora",
+              "tem_peso": true,
+              "carga_default": 10,
+              "unidade": "kg"
+            },
+            {
+              "id": "d1_post_gluteo",
+              "nome": "Gl\u00fateo 4 apoios",
+              "series": "3",
+              "reps": "12",
+              "tecnicas": ["NOSTOP"],
+              "pills_extra": [],
+              "obs": "NO STOP: reps cont\u00ednuas sem pausa entre elas; n\u00e3o usar impulso; controlar a descida; core ativo",
+              "tem_peso": false,
+              "carga_default": null,
+              "unidade": null
+            }
+          ]
+        },
+        {
+          "id": "d1_costas",
+          "nome": "Costas",
+          "icon": "\ud83d\udd35",
+          "icon_class": "icon-costas",
+          "exercicios": [
+            {
+              "id": "d1_cos_puxada",
+              "nome": "Puxada neutra",
+              "series": "3",
+              "reps": "12",
+              "tecnicas": [],
+              "pills_extra": [],
+              "obs": "Pegada neutra (paralela); cotovelos puxam para baixo e para tr\u00e1s; colat\u00e9ral ao peito; esc\u00e1pulas ativas",
+              "tem_peso": true,
+              "carga_default": null,
+              "unidade": "kg"
+            },
+            {
+              "id": "d1_cos_remada",
+              "nome": "Remada tri\u00e2ngulo",
+              "series": "3",
+              "reps": "10",
+              "tecnicas": ["RESTPAUSE"],
+              "pills_extra": [],
+              "obs": "REST PAUSE: execute at\u00e9 falhar; descanse 15s; retome; cotovelos colados ao tronco; esc\u00e1pulas juntas no pico",
+              "tem_peso": true,
+              "carga_default": null,
+              "unidade": "kg"
+            }
+          ]
+        },
+        {
+          "id": "d1_bracos",
+          "nome": "B\u00edceps \u00b7 Ombro",
+          "icon": "\ud83d\udcaa",
+          "icon_class": "icon-bracos",
+          "exercicios": [
+            {
+              "id": "d1_brac_facepull",
+              "nome": "Face pull",
+              "series": "3",
+              "reps": "10",
+              "tecnicas": ["BISET"],
+              "biset_com": "Rosca direta",
+              "biset_direcao": "baixo",
+              "pills_extra": [],
+              "obs": "BISET com Rosca Direta em sequ\u00eancia; cotovelos na altura dos ombros; foco no trap\u00e9zio m\u00e9dio e ombro posterior",
+              "tem_peso": true,
+              "carga_default": 15,
+              "unidade": "kg"
+            },
+            {
+              "id": "d1_brac_rosca",
+              "nome": "Rosca direta",
+              "series": "3",
+              "reps": "12",
+              "tecnicas": ["BISET"],
+              "biset_com": "Face pull",
+              "biset_direcao": "cima",
+              "pills_extra": [],
+              "obs": "Executar logo ap\u00f3s o Face Pull; cotovelos fixos ao lado do tronco; supina\u00e7\u00e3o total no topo",
+              "tem_peso": true,
+              "carga_default": 3,
+              "unidade": "kg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Quadr\u00edceps \u00b7 Peito \u00b7 Tr\u00edceps",
+      "grupos": "9 exerc\u00edcios \u2022 3 grupos musculares",
+      "secoes": [
+        {
+          "id": "d2_aquecimento",
+          "nome": "Aquecimento",
+          "icon": "\ud83d\udd25",
+          "icon_class": "icon-aquecimento",
+          "exercicios": [
+            {
+              "id": "d2_aquec_mob",
+              "nome": "Mobilidade quadril \u00b7 Core",
+              "series": "1",
+              "reps": null,
+              "tecnicas": [],
+              "pills_extra": ["Aquecimento", "Peso corporal"],
+              "obs": "Mobilidade de quadril e ativa\u00e7\u00e3o do core antes do treino de pernas e peito",
+              "tem_peso": false,
+              "carga_default": null,
+              "unidade": null
+            }
+          ]
+        },
+        {
+          "id": "d2_quad",
+          "nome": "Quadr\u00edceps \u00b7 Perna",
+          "icon": "\ud83d\udfe2",
+          "icon_class": "icon-quad",
+          "exercicios": [
+            {
+              "id": "d2_quad_legpress",
+              "nome": "Leg press",
+              "series": "3",
+              "reps": "12",
+              "tecnicas": ["BISET"],
+              "biset_com": "G\u00eameos step",
+              "biset_direcao": "baixo",
+              "pills_extra": [],
+              "obs": "BISET com G\u00eameos Step em sequ\u00eancia; p\u00e9s na largura dos ombros; joelhos n\u00e3o travam no topo; amplitude completa",
+              "tem_peso": true,
+              "carga_default": null,
+              "unidade": "kg"
+            },
+            {
+              "id": "d2_quad_gemeos",
+              "nome": "G\u00eameos step",
+              "series": "3",
+              "reps": "15",
+              "tecnicas": ["BISET"],
+              "biset_com": "Leg press",
+              "biset_direcao": "cima",
+              "pills_extra": [],
+              "obs": "Executar logo ap\u00f3s o Leg Press; pausa 1s no topo; amplitude completa; um degrau ou step",
+              "tem_peso": true,
+              "carga_default": null,
+              "unidade": "kg"
+            },
+            {
+              "id": "d2_quad_isoagach",
+              "nome": "Agachamento ISO",
+              "series": "3",
+              "reps": null,
+              "tecnicas": ["ISO"],
+              "pills_extra": ["1 MIN"],
+              "obs": "Posi\u00e7\u00e3o isom\u00e9trica por 1 minuto; 90\u00b0 de flex\u00e3o; coluna neutra e core ativado; costas na parede se necess\u00e1rio",
+              "tem_peso": false,
+              "carga_default": null,
+              "unidade": null
+            },
+            {
+              "id": "d2_quad_extensora",
+              "nome": "Extensora",
+              "series": "3",
+              "reps": "15",
+              "tecnicas": ["MTOR"],
+              "pills_extra": [],
+              "obs": "MTOR: pausa no m\u00e1ximo alongamento (posi\u00e7\u00e3o inicial); contrair o quadr\u00edceps no topo com pausa",
+              "tem_peso": true,
+              "carga_default": null,
+              "unidade": "kg"
+            },
+            {
+              "id": "d2_quad_adutora",
+              "nome": "Adutora",
+              "series": "3",
+              "reps": "15",
+              "tecnicas": ["RESTPAUSE"],
+              "pills_extra": [],
+              "obs": "REST PAUSE: execute at\u00e9 a falha; descanse 15s; retome; movimento controlado; foco na parte interna da coxa",
+              "tem_peso": true,
+              "carga_default": null,
+              "unidade": "kg"
+            }
+          ]
+        },
+        {
+          "id": "d2_peito",
+          "nome": "Peito",
+          "icon": "\ud83d\udfe3",
+          "icon_class": "icon-peito",
+          "exercicios": [
+            {
+              "id": "d2_peit_supino",
+              "nome": "Supino inclinado halter",
+              "series": "3",
+              "reps": "12",
+              "tecnicas": [],
+              "pills_extra": [],
+              "obs": "Inclina\u00e7\u00e3o 30-45\u00b0; cotovelos a 45\u00b0 do tronco; descida controlada at\u00e9 a linha do peito; halters paralelos no topo",
+              "tem_peso": true,
+              "carga_default": null,
+              "unidade": "kg"
+            },
+            {
+              "id": "d2_peit_flexao",
+              "nome": "Flex\u00e3o barra guiada",
+              "series": "3",
+              "reps": "8-10",
+              "tecnicas": ["FALHA"],
+              "pills_extra": [],
+              "obs": "Smith machine ou barra guiada; cotovelos pr\u00f3ximos ao corpo; descer at\u00e9 o peito tocar levemente a barra; 8-10 reps antes da falha",
+              "tem_peso": false,
+              "carga_default": null,
+              "unidade": null
+            }
+          ]
+        },
+        {
+          "id": "d2_peito_triceps",
+          "nome": "Peito \u00b7 Tr\u00edceps",
+          "icon": "\ud83d\udfe1",
+          "icon_class": "icon-triceps",
+          "exercicios": [
+            {
+              "id": "d2_tri_cruxifixo",
+              "nome": "Cruxifixo reto",
+              "series": "3",
+              "reps": "10",
+              "tecnicas": ["BISET"],
+              "biset_com": "Tr\u00edceps polia barra V",
+              "biset_direcao": "baixo",
+              "pills_extra": [],
+              "obs": "BISET com Tr\u00edceps Polia em sequ\u00eancia; leve flex\u00e3o dos cotovelos; amplitude controlada; sentir o alongamento no peito",
+              "tem_peso": true,
+              "carga_default": null,
+              "unidade": "kg"
+            },
+            {
+              "id": "d2_tri_polia",
+              "nome": "Tr\u00edceps polia barra V",
+              "series": "3",
+              "reps": "12",
+              "tecnicas": ["BISET", "PICO2"],
+              "biset_com": "Cruxifixo reto",
+              "biset_direcao": "cima",
+              "pills_extra": [],
+              "obs": "Executar logo ap\u00f3s o Cruxifixo; pausa 2s na contra\u00e7\u00e3o m\u00e1xima (bra\u00e7os estendidos); cotovelos fixos ao lado do tronco",
+              "tem_peso": true,
+              "carga_default": null,
+              "unidade": "kg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tecnicas_legenda": {
+    "BISET":     {"label": "BISET",      "desc": "Dois exerc\u00edcios em sequ\u00eancia sem descanso",           "cor": "#60c0fa"},
+    "MTOR":      {"label": "MTOR",       "desc": "Pausa no m\u00e1ximo alongamento do m\u00fasculo",             "cor": "#6ee7b7"},
+    "RESTPAUSE": {"label": "REST PAUSE", "desc": "Executar at\u00e9 falhar, descansar 15s e retomar",        "cor": "#c084fc"},
+    "PICO2":     {"label": "PICO 2",     "desc": "Pausa de 2s na contra\u00e7\u00e3o m\u00e1xima",                   "cor": "#f472b6"},
+    "NOSTOP":    {"label": "NO STOP",    "desc": "Reps cont\u00ednuas sem pausa entre elas",                "cor": "#34d399"},
+    "FALHA":     {"label": "FALHA",      "desc": "Executar at\u00e9 a falha muscular",                      "cor": "#fbbf24"},
+    "ISO":       {"label": "ISO",        "desc": "Contração isom\u00e9trica estática por tempo determinado","cor": "#818cf8"}
+  }
+}
